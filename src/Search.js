@@ -9,7 +9,7 @@ const Search = ({ search }) => {
   return (
     <input
       type="text"
-      placeholder="search names"
+      placeholder="Search for a name"
       className="baby-name-search"
       onChange={handleInputChange}
     />

@@ -1,9 +1,10 @@
 import React from "react";
 
-const BabyNameItem = ({ babyInfo }) => {
+const BabyNameItem = ({ babyInfo, clickHandler }) => {
   return (
     <>
       <li
+        onClick={clickHandler}
         className={
           babyInfo.sex === "f" ? "baby-girl baby-name" : "baby-boy baby-name"
         }
