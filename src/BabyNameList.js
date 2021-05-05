@@ -1,10 +1,5 @@
 import React from "react";
-// import babyNamesArray from "./babyNamesData.json";
 import BabyNameItem from "./BabyNameItem";
-
-// const babyNamesSorted = babyNamesArray.sort((a, b) =>
-//   a.name.localeCompare(b.name)
-// );
 
 const BabyNameList = ({ babyNamesSorted }) => {
   return (
