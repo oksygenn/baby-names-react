@@ -1,14 +1,14 @@
 import React from "react";
 import "./NameItem.css";
 
-const nameItem = ({ data }) => {
+const NameItem = ({ dataObj }) => {
   return (
     <>
-      <li className={data.sex === "f" ? "name name-girl" : "name name-boy"}>
-        {data.name}
+      <li className={dataObj.sex === "f" ? "name name-girl" : "name name-boy"}>
+        {dataObj.name}
       </li>
     </>
   );
 };
 
-export default nameItem;
+export default NameItem;
