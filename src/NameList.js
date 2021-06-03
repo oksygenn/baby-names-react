@@ -1,12 +1,18 @@
 import React from "react";
-import NameItem from "./NameItem";
 import "./NameList.css";
 
-const NameList = ({ sortedNameData }) => {
+const NameList = ({ nameList, itemClickHandler }) => {
   return (
     <ul className="name-list">
-      {sortedNameData.map((dataObj) => {
-        return <NameItem dataObj={dataObj} key={dataObj.id} />;
+      {nameList.map((dataObj) => {
+        return (
+          <li
+            onClick={() => itemClickHandler(dataObj.id)}
+            className={dataObj.sex === "f" ? "name name-girl" : "name name-boy"}
+          >
+            {dataObj.name}
+          </li>
+        );
       })}
     </ul>
   );
