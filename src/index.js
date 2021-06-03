@@ -5,9 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import namesData from "./babyNamesData.json";
 
+const sortedNames = namesData.sort((a, b) => a.name.localeCompare(b.name));
+
 ReactDOM.render(
   <React.StrictMode>
-    <App namesData={namesData} />
+    <App sortedNames={sortedNames} />
   </React.StrictMode>,
   document.getElementById("root")
 );
