@@ -1,14 +1,18 @@
-.app {
-  padding: 3rem;
+.App {
+  padding: 6rem;
   max-width: 800px;
-  margin: 2rem auto;
-  border: 3px solid rgb(44, 247, 236);
+  margin: 4rem auto;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 4px 1px 18px -4px rgba(128, 128, 128, 0.39);
   border-radius: 20px;
-  padding: 2rem;
   text-align: center;
 }
 
-.baby-name-search {
+.name-list-container {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-left: 1px solid rgb(221, 221, 221);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 0.5rem;
-  width: 12rem;
 }
