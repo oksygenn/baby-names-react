@@ -10,11 +10,13 @@ li {
 }
 
 .boy-name {
-  background-color: #08227e;
-  color: white;
+  width: 6rem;
+  background-color: #3951aa;
+  color: #45f0df;
 }
 
 .girl-name {
+  width: 6rem;
   background-color: #45f0df;
-  color: #171a15;
+  color: #3951aa;
 }

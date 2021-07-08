@@ -9,13 +9,16 @@
 }
 
 .all-names-btn {
-  background-color: #c2bdc0;
-}
-.girl-btn {
-  background-color: #45f0df;
-}
-
-.boy-btn {
-  background-color: #08227e;
-  color: white;
-}
+  color: #aaf3ec;
+   background-color: #2a92bb;
+ }
+ 
+ .girl-btn {
+   background-color: #45f0df;
+   color: #3951aa;
+ }
+ 
+ .boy-btn {
+    background-color: #3951aa;
+   color: #45f0df;
+ }
