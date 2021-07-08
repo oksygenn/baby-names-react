@@ -7,7 +7,11 @@ const NameList = ({ names, handleClick }) => {
         <li
           onClick={() => handleClick(nameObj)}
           className={
-            nameObj.sex === "f" ? "girl-name name-card" : "boy-name name-card"
+            nameObj.name === "Oksana" || nameObj.name === "Negin"
+              ? "our-name name-card"
+              : nameObj.sex === "f"
+              ? "girl-name name-card"
+              : "boy-name name-card"
           }
         >
           {nameObj.name}

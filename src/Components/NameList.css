@@ -20,3 +20,12 @@ li {
   background-color: #45f0df;
   color: #3951aa;
 }
+
+.our-name {
+  box-shadow: 3px 3px 5px rgb(6, 21, 60);
+  width: 15%;
+  background-color: #00ff95;
+  font-size: larger;
+  font-weight: 500;
+  color: #2477c0;
+}
